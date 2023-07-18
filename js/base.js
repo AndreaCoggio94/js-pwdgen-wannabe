@@ -11,3 +11,15 @@ console.log(cognome);
 const colore = prompt("Qual'è il tuo colore preferito?");
 
 console.log(colore);
+
+let numero = "21";
+
+let finalPsw = nome + cognome + colore + numero;
+
+document.getElementById("psw").innerHTML = finalPsw;
+
+// in case I'll need the backslash
+// let text = `The quick
+// brown fox
+// jumps over
+// the lazy dog`;
